@@ -34,7 +34,8 @@ $(document).ready(function () {
      $(this).find(".description").val(storedDescription);
    });
  
-   
+   // displays date in the header
+   $("#currentDay").text(dayjs().format("dddd, MMMM D, YYYY"));
  });
 
 
