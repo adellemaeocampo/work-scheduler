@@ -27,7 +27,14 @@ $(document).ready(function () {
      }
    });
  
-  
+   // saves user input to local storage and set values for textarea elements
+   $(".time-block").each(function () {
+     var timeBlockId = $(this).attr("id");
+     var storedDescription = localStorage.getItem(timeBlockId);
+     $(this).find(".description").val(storedDescription);
+   });
+ 
+   
  });
 
 
