@@ -19,6 +19,6 @@ https://github.com/adellemaeocampo/work-scheduler/assets/152781829/70497829-a2f6
 
 
 
-## link
+## Link
 
-Link to work scheduler: 
+Link to work scheduler: https://adellemaeocampo.github.io/work-scheduler/
